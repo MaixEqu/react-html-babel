@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Hello JSX React with Babel</title>
+    <meta charset="utf-8">
+  </head>
+  <body>
+    <div id="app"></div>
+    <script src="react/react.min.js"></script>
+    <script src="react/react-dom.min.js"></script>
+    <script src="react/browser.js"></script>
+    <script type="text/babel">
+      ReactDOM.render(
+        <h1 id="my-heading">
+          <span><em>Hello</em></span> <b>Mx</b> 04
+        </h1>,
+        document.getElementById('app')
+      );
+    </script>
+  </body>
+</html>
